@@ -1,0 +1,15 @@
+.container {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  max-width: 90%;
+}
+
+.carousel-inner {
+  max-height: 500px;
+}
+.change {
+  max-height: 500px;
+}
+hr {
+  border: 2px solid #333333;
+}
