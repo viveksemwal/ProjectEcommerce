@@ -1,10 +1,10 @@
 .container {
   margin-top: 1em;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
   max-width: 90%;
 }
 
-.carousel-inner {
+.changes .carousel-inner {
   max-height: 500px;
 }
 .change {
@@ -12,4 +12,18 @@
 }
 hr {
   border: 2px solid #333333;
+}
+
+.home-headline {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 26px;
+  margin: auto;
+  text-align: center;
+  color: whitesmoke;
+  margin-top: -5px;
+}
+
+.home-headline span {
+  background-color: black;
+  padding: 5px 22px;
 }
