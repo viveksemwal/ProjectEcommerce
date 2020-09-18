@@ -3,7 +3,7 @@
   <head th:replace="common/common.html" ::common-head></head>
 
   <body>
-    <div th:replace="common/common.html"::common-nav></div>
+    <div th:replace="common/nav.html"::common-nav></div>
     <!-- Main component for a primary marketing message or call to action -->
 
     <div class="container">
@@ -21,21 +21,21 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <img
-                src="../static/images/head.jpg"
+                src="images/head.jpg"
                 class="d-block w-100 change"
                 alt="..."
               />
             </div>
             <div class="carousel-item">
               <img
-                src="../static/images/nevya.jpg"
+                src="images/nevya.jpg"
                 class="d-block w-100 change"
                 alt="..."
               />
             </div>
             <div class="carousel-item">
               <img
-                src="../static/images/bike.jpg"
+                src="images/bike.jpg"
                 class="d-block w-100 change"
                 alt="..."
               />
@@ -66,21 +66,21 @@
       <div class="row">
         <div class="col-sm-4">
           <img
-            src="../static/images/bestseller.png"
+            src="images/bestseller.png"
             class="d-block w-100 change"
             alt="..."
           />
         </div>
         <div class="col-sm-4">
           <img
-            src="../static/images/hours.png"
+            src="images/hours.png"
             class="d-block w-100 change"
             alt="..."
           />
         </div>
         <div class="col-sm-4">
           <img
-            src="../static/images/faq.png"
+            src="images/faq.png"
             class="d-block w-100 change"
             alt="..."
           />
@@ -106,69 +106,74 @@
           <div class="carousel-item active">
             <div class="row">
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-inner">
+          <div class="carousel-item active">
             <div class="row">
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-inner">
+          <div class="carousel-item active">
             <div class="row">
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
               <div class="col-sm-2">
-                <img src="../static/images/book1.png" />
+                <img src="images/book1.png" />
               </div>
             </div>
           </div>
+          
+         
+          
         </div>
         <a
           class="carousel-control-prev"
@@ -193,14 +198,6 @@
 
     <!-- /container -->
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script src="/src/main/resources/static/js/bootstrap.min.js"></script>
+  <div th:replace="common/scriptload.html"::common-script></div>
   </body>
 </html>
